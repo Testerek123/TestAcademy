@@ -5,7 +5,7 @@ that is used to define a set of named constant values.
 Enums can be useful for representing a fixed set of related values,
 such as days of the week, colors, states, types, models
 
-<task 1:>
+<task 1>
 
 Declare an enum named DayOfWeek.
 It should include all days of the week in uppercase: SUNDAY, MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY.
