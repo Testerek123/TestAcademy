@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8119e024-39df-4abe-9f36-abc4933280aa" name="Changes" comment="v1.3">
+    <list default="true" id="8119e024-39df-4abe-9f36-abc4933280aa" name="Changes" comment="Answer to task 1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Task1_Days.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/answers/lukasz/Task1_Days.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +62,7 @@
       </method>
     </configuration>
     <configuration name="Task1_Days" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Task1_Days" />
+      <option name="MAIN_CLASS_NAME" value="answers.lukasz.Task1_Days" />
       <module name="TestAcademy" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -132,13 +133,21 @@
       <option name="project" value="LOCAL" />
       <updated>1692005937616</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Answer to task 1">
+      <created>1692179324085</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1692179324085</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="v1.0" />
     <MESSAGE value="v1.1" />
     <MESSAGE value="v1.3" />
-    <option name="LAST_COMMIT_MESSAGE" value="v1.3" />
+    <MESSAGE value="Answer to task 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Answer to task 1" />
   </component>
 </project>

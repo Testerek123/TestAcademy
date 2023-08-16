@@ -1,3 +1,5 @@
+package answers.lukasz;
+
 public class Task1_Days {
 
     public enum DayOfWeek {SUNDAY, MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY}
