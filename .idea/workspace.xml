@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8119e024-39df-4abe-9f36-abc4933280aa" name="Changes" comment="Answer folder" />
+    <list default="true" id="8119e024-39df-4abe-9f36-abc4933280aa" name="Changes" comment="Lukasz answer update">
+      <change afterPath="$PROJECT_DIR$/src/main/java/answers/lukasz/Task1/Task1_Days.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/answers/lukasz/Task1/Task1_Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023-08-16_14_24__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023-08-16_14_24__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023-08-16_14_29__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CalculatorDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/answers/lukasz/CalculatorDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Moon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/answers/lukasz/Task1_Days.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CalculatorTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CalculatorTests.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,7 +61,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Task1_Days">
+  <component name="RunManager" selected="Application.Task1_Main">
     <configuration name="Moon" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Moon" />
       <module name="TestAcademy" />
@@ -59,8 +70,21 @@
       </method>
     </configuration>
     <configuration name="Task1_Days" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="answers.lukasz.Task1_Days" />
+      <option name="MAIN_CLASS_NAME" value="answers.lukasz.Task1.Task1_Days" />
       <module name="TestAcademy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task1_Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="answers.lukasz.Task1.Task1_Main" />
+      <module name="TestAcademy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="answers.lukasz.Task1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -86,6 +110,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Task1_Main" />
         <item itemvalue="Application.Task1_Days" />
         <item itemvalue="Application.Moon" />
         <item itemvalue="JUnit.CalculatorTests" />
@@ -144,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692188489151</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Answer folder1">
+      <created>1692188932675</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1692188932675</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -153,6 +185,8 @@
     <MESSAGE value="v1.3" />
     <MESSAGE value="Answer to task 1" />
     <MESSAGE value="Answer folder" />
-    <option name="LAST_COMMIT_MESSAGE" value="Answer folder" />
+    <MESSAGE value="Answer folder1" />
+    <MESSAGE value="Lukasz answer update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lukasz answer update" />
   </component>
 </project>
