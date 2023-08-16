@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8119e024-39df-4abe-9f36-abc4933280aa" name="Changes" comment="Answer to task 1">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Task1_Days.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/answers/lukasz/Task1_Days.java" afterDir="false" />
-    </list>
+    <list default="true" id="8119e024-39df-4abe-9f36-abc4933280aa" name="Changes" comment="Answer folder" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -140,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692179324085</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Answer folder">
+      <created>1692188489151</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1692188489151</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -148,6 +152,7 @@
     <MESSAGE value="v1.1" />
     <MESSAGE value="v1.3" />
     <MESSAGE value="Answer to task 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Answer to task 1" />
+    <MESSAGE value="Answer folder" />
+    <option name="LAST_COMMIT_MESSAGE" value="Answer folder" />
   </component>
 </project>
