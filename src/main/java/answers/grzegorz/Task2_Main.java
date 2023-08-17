@@ -87,6 +87,7 @@ public class Task2_Main {
                 dayIndex = 6;
                 break;
             default:
+                dayIndex = 7;
                 System.out.println("not a valid day name - check spelling / case ");
         }
 
@@ -103,12 +104,12 @@ public class Task2_Main {
 
 
         for (int i = 0; i < numberOfDays; i++) {
-            if (i >= dayIndex) {
+            if (i >= dayIndex && dayIndex < 7) {
                 System.out.println(daysOfWeek[i]);
             }
         }
         for (int i = 0; i < numberOfDays; i++) {
-            if (i < dayIndex) {
+            if (i < dayIndex && dayIndex < 7) {
                 System.out.println(daysOfWeek[i]);
             }
         }
