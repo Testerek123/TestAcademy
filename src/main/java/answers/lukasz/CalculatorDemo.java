@@ -1,3 +1,5 @@
+package answers.lukasz;
+
 public class CalculatorDemo {
     public double add(double a, double b) {
         return a + b;
