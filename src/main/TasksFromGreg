@@ -1,3 +1,26 @@
+2023-08-17 enum +
+
+Let's expand on task 1:
+
+<task 2>
+Prompt user to input any name of the week in uppercase:
+- ex. prompt = "enter name of the week in uppercase:"
+- ex. entry = "FRIDAY"
+
+now print days of the week to the console starting from the day user provided.
+if user enters incorrect name print warning message "invalid name of the day of the week" and end program
+
+- ex. output =
+FRIDAY
+SATURDAY
+SUNDAY
+MONDAY
+TUESDAY
+WEDNESDAY
+THURSDAY
+
+</task 2>
+
 2023-08-15 enum
 
 In Java, an enum (short for "enumeration") is a special data type
