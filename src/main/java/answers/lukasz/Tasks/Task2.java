@@ -1,4 +1,4 @@
-package answers.lukasz.Task1;
+package answers.lukasz.Tasks;
 
 import java.util.Scanner;
 
