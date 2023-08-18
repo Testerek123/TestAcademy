@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8119e024-39df-4abe-9f36-abc4933280aa" name="Changes" comment="Answer folder">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LetsEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/answers/laxmi/LetsEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/answers/laxmi/laxmi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/answers/lukasz/Task1/Task1_Days.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/answers/lukasz/Task1/Task1_Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/answers/lukasz/Task1/Task1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +54,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LetsEnum">
+  <component name="RunManager" selected="Application.answers.lukasz.Task1.Task1_Days">
     <configuration name="LetsEnum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="answers.laxmi.LetsEnum" />
       <module name="TestAcademy" />
@@ -67,9 +68,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Moon" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Moon" />
+    <configuration name="Task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="answers.lukasz.Task1.Task1" />
       <module name="TestAcademy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="answers.lukasz.Task1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -81,32 +88,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Task1_Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="answers.lukasz.Task1.Task1_Main" />
       <module name="TestAcademy" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CalculatorTests" />
-      <option name="TEST_OBJECT" value="class" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="answers.lukasz.Task1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorTests.addTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Task2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="answers.lukasz.Task1.Task2" />
       <module name="TestAcademy" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CalculatorTests" />
-      <option name="METHOD_NAME" value="addTest" />
-      <option name="TEST_OBJECT" value="method" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="answers.lukasz.Task1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.answers.lukasz.Task1.Task1_Days" />
+        <item itemvalue="Application.Task2" />
+        <item itemvalue="Application.Task1_Main" />
         <item itemvalue="Application.LetsEnum" />
         <item itemvalue="Application.Task1_Days" />
-        <item itemvalue="Application.Moon" />
-        <item itemvalue="JUnit.CalculatorTests" />
-        <item itemvalue="JUnit.CalculatorTests.addTest" />
       </list>
     </recent_temporary>
   </component>
