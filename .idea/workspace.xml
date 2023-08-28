@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8119e024-39df-4abe-9f36-abc4933280aa" name="Changes" comment="Merge remote-tracking branch 'origin/master'">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023-08-16_14_24_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023-08-16_14_24__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/answers/laxmi/DaysOfWeekProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/answers/laxmi/DaysOfWeekProgram.java" afterDir="false" />
-    </list>
+    <list default="true" id="8119e024-39df-4abe-9f36-abc4933280aa" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,7 +20,6 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
-        <option value="greg &lt;grzegorz.wojcik@gds.ey.com&gt;" />
         <option value="laxmikoladur11 &lt;koladur.laxmi@gmail.com&gt;" />
         <option value="Testerek456 &lt;lukasz.hagel@gmail.com&gt;" />
       </list>
@@ -57,32 +51,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.DaysOfWeekProgram">
-    <configuration name="Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="answers.laxmi.Array" />
-      <module name="TestAcademy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="answers.laxmi.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Basicjava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="answers.laxmi.Basicjava" />
-      <module name="TestAcademy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="answers.laxmi.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="DaysOfWeekProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="answers.laxmi.DaysOfWeekProgram" />
       <module name="TestAcademy" />
@@ -96,8 +64,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Method" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="answers.laxmi.Method" />
+    <configuration name="LetsEnum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="answers.laxmi.LetsEnum" />
+      <module name="TestAcademy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="answers.laxmi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="answers.laxmi.Task2" />
       <module name="TestAcademy" />
       <extension name="coverage">
         <pattern>
@@ -116,13 +97,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="task4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="answers.laxmi.task4" />
+      <module name="TestAcademy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="answers.laxmi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.DaysOfWeekProgram" />
-        <item itemvalue="Application.Method" />
-        <item itemvalue="Application.Array" />
-        <item itemvalue="Application.Basicjava" />
         <item itemvalue="Application.task4 (1)" />
+        <item itemvalue="Application.task4" />
+        <item itemvalue="Application.Task2" />
+        <item itemvalue="Application.LetsEnum" />
       </list>
     </recent_temporary>
   </component>
@@ -185,15 +179,7 @@
       <option name="project" value="LOCAL" />
       <updated>1692193668787</updated>
     </task>
-    <task id="LOCAL-00008" summary="Merge remote-tracking branch 'origin/master'">
-      <option name="closed" value="true" />
-      <created>1692301878673</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1692301878673</updated>
-    </task>
-    <option name="localTasksCounter" value="9" />
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
