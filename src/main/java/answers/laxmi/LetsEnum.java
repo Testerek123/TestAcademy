@@ -1,6 +1,8 @@
 package answers.laxmi;
 
 enum DAYSOFWEEK
+
+    
 {
     SUNDAY,MONDAY,TUESDAY,WEDNESDAY,THURSDAY,FRIDAY,SATURDAY;}
 
@@ -13,9 +15,6 @@ public class LetsEnum {
         System.out.println(DAYSOFWEEK.THURSDAY);
         System.out.println(DAYSOFWEEK.FRIDAY);
        System.out.println(DAYSOFWEEK.SUNDAY);
-
-
-
 
 
     }
