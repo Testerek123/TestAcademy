@@ -1,5 +1,42 @@
 2023-08-29 switch statement
 
+<task 4>
+lets elaborate on task 3:
+
+1.prompt user for a number can be from 1 to 9 (inclusive).
+2. instead of finishing the program prompt user for a number again and again until user enters following text "stop this!"
+3. do not stop the program if input is invalid
+4. allow user to enter lower case or upper case or mixed input (make it case agnostic)
+5. if user enters "stop this!" print: "I thought you'll never ask."   and end program.
+
+</task 4>
+
+2023-08-29 switch statement
+
+<task 3>
+Write a program that reads a string from the standard input
+and outputs the number.
+A number can be from 1 to 9 (inclusive).
+using "switch" statement is a plus.
+
+Sample Input:
+one
+
+Sample Output:
+1
+
+Sample Input:
+seven
+
+Sample Output:
+7
+</task 3>
+
+2023-09-01 prom[
+
+
+2023-08-29 switch statement
+
 <task 3>
 Write a program that reads a string from the standard input
 and outputs the number.
