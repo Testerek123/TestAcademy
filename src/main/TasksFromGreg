@@ -86,6 +86,11 @@ that is used to define a set of named constant values.
 Enums can be useful for representing a fixed set of related values,
 such as days of the week, colors, states, types, models
 
+Since an enum is a special class type in Java,
+we can add constructors, fields, and methods to it.
+Thus, it is possible to enhance our enum to include the values we need.
+The values of the constants are defined when we declare the enum.
+
 <task 1>
 
 Declare an enum named DayOfWeek.
