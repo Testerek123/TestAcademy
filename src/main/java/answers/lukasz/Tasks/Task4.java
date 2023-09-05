@@ -46,7 +46,7 @@ public class Task4 {
                         break;
 
                     default:
-                        System.out.println("Invalid number!\nPlease try again!");
+                        System.out.println("Invalid number!\nPlease try again! or enter 'stop this!' to end the program.");
                 }
             }
         }
