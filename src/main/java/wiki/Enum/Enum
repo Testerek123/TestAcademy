@@ -1,5 +1,7 @@
 DRAFT> INFO ABOUT ENUMS
 
+https://www.baeldung.com/a-guide-to-java-enums
+
 1. Enums
 An enum is a special "class" that represents a group of constants (unchangeable variables, like final variables).
 
