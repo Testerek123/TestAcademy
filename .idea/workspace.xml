@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8119e024-39df-4abe-9f36-abc4933280aa" name="Changes" comment="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
+    <list default="true" id="8119e024-39df-4abe-9f36-abc4933280aa" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,7 +13,6 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -39,25 +38,25 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.space&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.enumin">
-    <configuration name="Compareto" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="answers.laxmi.Compareto" />
+  <component name="RunManager" selected="Application.DaysOfWeekProgram">
+    <configuration name="DaysOfWeekProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="answers.laxmi.DaysOfWeekProgram" />
       <module name="TestAcademy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="answers.laxmi.demo.*" />
+          <option name="PATTERN" value="answers.laxmi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -65,12 +64,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Interface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="answers.laxmi.demo.Interface" />
+    <configuration name="LetsEnum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="answers.laxmi.LetsEnum" />
       <module name="TestAcademy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="answers.laxmi.demo.*" />
+          <option name="PATTERN" value="answers.laxmi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,12 +77,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="enumin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="answers.laxmi.demo.enumin" />
+    <configuration name="Task2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="answers.laxmi.Task2" />
       <module name="TestAcademy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="answers.laxmi.demo.*" />
+          <option name="PATTERN" value="answers.laxmi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,25 +90,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="answers.laxmi.demo.main" />
+    <configuration name="task4 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task4" />
       <module name="TestAcademy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="answers.laxmi.demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="values" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="answers.laxmi.demo.values" />
+    <configuration name="task4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="answers.laxmi.task4" />
       <module name="TestAcademy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="answers.laxmi.demo.*" />
+          <option name="PATTERN" value="answers.laxmi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.enumin" />
-        <item itemvalue="Application.main" />
-        <item itemvalue="Application.Interface" />
-        <item itemvalue="Application.values" />
-        <item itemvalue="Application.Compareto" />
+        <item itemvalue="Application.DaysOfWeekProgram" />
+        <item itemvalue="Application.task4 (1)" />
+        <item itemvalue="Application.task4" />
+        <item itemvalue="Application.Task2" />
+        <item itemvalue="Application.LetsEnum" />
       </list>
     </recent_temporary>
   </component>
@@ -186,23 +179,7 @@
       <option name="project" value="LOCAL" />
       <updated>1692193668787</updated>
     </task>
-    <task id="LOCAL-00008" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
-      <option name="closed" value="true" />
-      <created>1693224483588</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1693224483588</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
-      <option name="closed" value="true" />
-      <created>1694160426673</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1694160426673</updated>
-    </task>
-    <option name="localTasksCounter" value="10" />
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -213,8 +190,7 @@
     <MESSAGE value="Answer folder" />
     <MESSAGE value="Final" />
     <MESSAGE value="Merge remote-tracking branch 'origin/master'" />
-    <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/TestAcademy$Basicjava.ic" NAME="Basicjava Coverage Results" MODIFIED="1692798586873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
