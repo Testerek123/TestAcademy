@@ -24,25 +24,32 @@ public class DaysOfWeekProgram {
            // System.out.println(daysOfWeek[1]);
 
 
+
             int startIndex = startDay.ordinal() ; // get index (integer) of an object found in line 16 and add 1
 
             System.out.println("Days of the week:");
-            for (int i = 0; i < daysOfWeek.length; i++) {
+
+            for (int i = 0; i <= daysOfWeek.length; i++) {
                 if((i-startIndex)>=0)
                 {
                     System.out.println(daysOfWeek[i-startIndex]);
-                    System.out.println(i-startIndex);
+                    //System.out.println(i-startIndex);
                 }
 
             }
-            for (int i = 0; i < daysOfWeek.length; i++) {
-                if((i-startIndex<0))
-                {
-                    System.out.println(daysOfWeek[i]);
-                }
+           // for (int i = 0; i < daysOfWeek.length; i++) {
+            //    if((i-startIndex<0))
+             //   {
+                   // System.out.println(daysOfWeek[i]);
+             //   }
 
 
-            }
+
+
+
+
+
+
         } catch (IllegalArgumentException e) {
             System.out.println("Invalid name of the week.");
         }
