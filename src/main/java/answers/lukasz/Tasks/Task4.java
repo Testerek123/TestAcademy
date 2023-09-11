@@ -11,7 +11,7 @@ public class Task4 {
         while (true) {
             String input = scanner.nextLine().toLowerCase();
             if (input.equals("stop this!")) {
-                System.out.println("I thought you'll never ask.");
+                System.out.println("i thought you'll never ask.");
                 break;
 
             } else {

@@ -1,58 +1,24 @@
 package answers.lukasz.Tasks;
 
 import java.util.Scanner;
+/*we display the index of the string input*/
+public enum Task3_1 {
+    ONE, TWO, THREE, FOUR, FIVE, SIX, SEVEN, EIGHT, NINE;
 
-public class Task3_1 {
-        /*
-    <task 3>
-        Write a program that reads a string from the standard input and outputs the number.
-        A number can be from 1 to 9 (inclusive). using "switch" statement is a plus.
-
-        Sample Input: one
-        Sample Output: 1
-        Sample Input: seven
-        Sample Output: 7
-    </task 3>*/
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter number name: (e.g: two)");
-        String numberName = scanner.nextLine();
+        System.out.println("Enter a string representing a number (1-9):");
+        String input = scanner.nextLine().toUpperCase();
         scanner.close();
 
+        try {
+            Task3_1 enumValue = Task3_1.valueOf(input);
+            int intValue = enumValue.ordinal();
 
-        switch (numberName) { // switch statement -> compares our input with cases
-            case "one":
-                System.out.println(1);
-                break;
-            case "two":
-                System.out.println(2);
-                break;
-            case "three":
-                System.out.println(3);
-                break;
-            case "four":
-                System.out.println(4);
-                break;
-            case "five":
-                System.out.println(5);
-                break;
-            case "six":
-                System.out.println(6);
-                break;
-            case "seven":
-                System.out.println(7);
-                break;
-            case "eight":
-                System.out.println(8);
-                break;
-            case "nine":
-                System.out.println(9);
-                break;
-
-            default:
-                System.out.println("Invalid number!\nPlease try again!");
+            System.out.println("input = " + enumValue);
+            System.out.println("int output = " + (intValue + 1));
+        } catch (IllegalArgumentException e) {
+            System.out.println("Invalid number! Please try again!");
         }
-
     }
 }
-
