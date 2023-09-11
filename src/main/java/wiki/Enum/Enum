@@ -1,5 +1,174 @@
 DRAFT> INFO ABOUT ENUMS
 
+https://www.baeldung.com/a-guide-to-java-enums
+
+1. Declaration outside the class
+enum Color {
+    RED,
+    GREEN,
+    BLUE;
+}
+
+public class MyNotes {
+    // A simple enum example where enum is declared
+// outside any class (Note enum keyword instead of
+// class keyword)
+
+    // Driver method
+    public static void main(String[] args) {
+        Color c1 = Color.RED;
+        System.out.println(c1);
+    }
+}
+_____________________________________________________________________________________________
+2. Declaration inside a class
+
+// enum declaration inside a class.
+ 
+public class Test {
+    enum Color {
+        RED,
+        GREEN,
+        BLUE;
+    }
+ 
+    // Driver method
+    public static void main(String[] args)
+    {
+        Color c1 = Color.RED;
+        System.out.println(c1);
+    }
+}
+_____________________________________________________________________________________________
+3. Properties of Enum in Java
+There are certain properties followed by Enum as mentioned below:
+
+Every enum is internally implemented by using Class.
+Every enum constant represents an object of type enum.
+Enum type can be passed as an argument to switch statements.
+Every enum constant is always implicitly public static final. Since it is static, we can access it by using the enum Name. Since it is final, we can’t create child enums.
+We can declare the main() method inside the enum. Hence we can invoke the enum directly from the Command Prompt.
+Below is the implementation of the above properties:
+
+// A Java program to demonstrate working on enum
+// in switch case (Filename Test. Java)
+ 
+import java.util.Scanner;
+ 
+// An Enum class
+enum Day {
+    SUNDAY,
+    MONDAY,
+    TUESDAY,
+    WEDNESDAY,
+    THURSDAY,
+    FRIDAY,
+    SATURDAY;
+}
+ 
+// Driver class that contains an object of "day" and
+// main().
+public class Test {
+    Day day;
+ 
+    // Constructor
+    public Test(Day day) { this.day = day; }
+ 
+    // Prints a line about Day using switch
+    public void dayIsLike()
+    {
+        switch (day) {
+        case MONDAY:
+            System.out.println("Mondays are bad.");
+            break;
+        case FRIDAY:
+            System.out.println("Fridays are better.");
+            break;
+        case SATURDAY:
+        case SUNDAY:
+            System.out.println("Weekends are best.");
+            break;
+        default:
+            System.out.println("Midweek days are so-so.");
+            break;
+        }
+    }
+ 
+    // Driver method
+    public static void main(String[] args)
+    {
+        String str = "MONDAY";
+        Test t1 = new Test(Day.valueOf(str));
+        t1.dayIsLike();
+    }
+}
+_____________________________________________________________________________________________
+4. Loop through Enum
+We can iterate over the Enum using values( ) and loop. values() function returns an array of Enum values as constants using which we can iterate over the values.
+// Java Program to Print all the values
+// inside the enum using for loop
+
+import java.io.*;
+ 
+// Enum Declared
+enum Color {
+    RED,
+    GREEN,
+    BLUE;
+}
+ 
+// Driver Class
+class GFG {
+ 
+    // Main Function
+    public static void main(String[] args)
+    {
+        // Iterating over all the values in
+        // enum using for loop
+        for (Color var_1 : Color.values()) {
+            System.out.println(var_1);
+        }
+    }
+}
+_____________________________________________________________________________________________
+5. Enum in a Switch Statement
+// Java Program to implement
+// Enum in a Switch Statement
+import java.io.*;
+ 
+// Driver Class
+class GFG {
+    // Enum Declared
+    enum Color {
+        RED,
+        GREEN,
+        BLUE,
+          Yellow;
+    }
+ 
+    // Main Function
+    public static void main(String[] args)
+    {
+          Color var_1=Color.Yellow;
+       
+          // Switch case with Enum
+          switch(var_1){
+          case RED:
+            System.out.println("Red color observed");
+            break;
+          case GREEN:
+            System.out.println("Green color observed");
+            break;
+          case BLUE:
+            System.out.println("Blue color observed");
+          default:
+            System.out.println("Other color observed");
+        }
+    }
+}
+
+_____________________________________________________________________________________________
+
 1. Enums
 An enum is a special "class" that represents a group of constants (unchangeable variables, like final variables).
 
