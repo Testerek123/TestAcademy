@@ -1,7 +1,22 @@
 package answers.lukasz.Tasks;
 
 import java.util.Scanner;
+/*
+read iteger number 'n' from prompt
+        0 <= n <= 1000000
 
+        find the tens digit and print out result
+
+        examples:
+        if number = 1432, the tens digit = 3
+        if number = 265, the tens digit = 6
+        if number = 102, the tens digit = 0
+
+        if user inputs invalid input
+        - then pront warning and ask for input again
+        - or user can terminate program by typing '1000001'
+
+*/
 public class Task5_Lukasz {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
