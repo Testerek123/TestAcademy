@@ -7,56 +7,44 @@ public class Task4Main {
     public static void main(String[] args){
             getNumberFromUser();
     }
-
     public static void getNumberFromUser() {
         Scanner sc = new Scanner(System.in);
-        //
         String input = "start";
-        int output = 0;
         while (input != "stop this!"){
             System.out.println("Write number from 0 to 9 as a string: ");
             input = sc.nextLine();
             input = input.toLowerCase();
+            sc.close();
             switch (input) {
                 case "zero":
-                    output = 0;
-                    System.out.println("Your number is: " + output);
+                    System.out.println("Your number is: " + 0);
                     break;
                 case "one":
-                    output = 1;
-                    System.out.println("Your number is: " + output);
+                    System.out.println("Your number is: " + 1);
                     break;
                 case "two":
-                    output = 2;
-                    System.out.println("Your number is: " + output);
+                    System.out.println("Your number is: " + 2);
                     break;
                 case "three":
-                    output = 3;
-                    System.out.println("Your number is: " + output);
+                    System.out.println("Your number is: " + 3);
                     break;
                 case "four":
-                    output = 4;
-                    System.out.printf("Your number is: " + output);
+                    System.out.printf("Your number is: " + 4);
                     break;
                 case "five":
-                    output = 5;
-                    System.out.println("Your number is: " + output);
+                    System.out.println("Your number is: " + 5);
                     break;
                 case "six":
-                    output = 6;
-                    System.out.println("Your number is: " + output);
+                    System.out.println("Your number is: " + 6);
                     break;
                 case "seven":
-                    output = 7;
-                    System.out.println("Your number is: " + output);
+                    System.out.println("Your number is: " + 7);
                     break;
                 case "eight":
-                    output = 8;
-                    System.out.println("Your number is: " + output);
+                    System.out.println("Your number is: " + 8);
                     break;
                 case "nine":
-                    output = 9;
-                    System.out.println("Your number is: " + output);
+                    System.out.println("Your number is: " + 9);
                     break;
                 case "stop this!":
                     System.out.println("I thought you'll never ask.");
