@@ -1,3 +1,29 @@
+2023-09-14 two dimensional array
+
+<task6>
+Given a rectangle array of integers  n×m in size.
+Rotate it by 90 degrees clockwise,
+and record the result into the new array of integers m×n in size.
+
+Input consists of the two numbers n and m, not exceeding 100,
+and then an array n×m in size (elements not exceeding 100).
+
+Output the resulting array. Separate numbers by a single space in the output.
+
+Sample Input:
+3 4
+11 12 13 14
+21 22 23 24
+31 32 33 34
+
+Sample Output:
+31 21 11
+32 22 12
+33 23 13
+34 24 14
+
+</task6>
+
 2023-09-11 List
 
 <task5>
