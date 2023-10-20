@@ -9,7 +9,6 @@ public class Task7 {
 
             System.out.print("Enter the number of rows: ");
             int rows = scanner.nextInt();
-
             System.out.print("Enter the number of columns: ");
             int columns = scanner.nextInt();
 
@@ -23,7 +22,7 @@ public class Task7 {
             int[][] array = new int[rows][columns];
 
             // Input data into the array
-            System.out.println("Enter the elements of the array:");
+            System.out.println("Enter the elements of the array using integer:");
             for (int i = 0; i < rows; i++) {
                 for (int j = 0; j < columns; j++) {
                     int input = scanner.nextInt();
@@ -45,7 +44,7 @@ public class Task7 {
                     rotatedArray180[i][j] = array[rows - 1 - i][columns - 1 - j];
                 }
             }
-            System.out.println("\nArray after rotating = 180 degrees:\n");
+            System.out.println("\nArray after rotation by 180 degrees = 180 degrees:\n");
             displayArray(rotatedArray180);
 //-------------------------------------------------------------------------------
             // Rotate the array 90 degrees clockwise
@@ -55,7 +54,7 @@ public class Task7 {
                     rotatedArray270[j][(rows - 1) - i] = rotatedArray180[i][j];
                 }
             }
-            System.out.println("\nArray after rotating = 270 degrees:\n");
+            System.out.println("\nArray after rotation by 90 degrees = 270 degrees:\n");
             displayArray(rotatedArray270);
         } catch (InputMismatchException e) {
             System.out.println("\nInvalid input. Please enter a valid integer.");
