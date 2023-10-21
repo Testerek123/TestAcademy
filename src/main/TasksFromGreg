@@ -1,3 +1,58 @@
+2023-10-21 container depot (use objects to store their state)
+
+<task8>
+Create the program that allows you to load coloured containers on the ship.
+For simplicity containers can have three colors: red, white, blue
+Each container loaded on the ship should have unique ID
+There is unlimited number of containers available to load
+Maximum number of containers on the ship is 9.
+
+Sample input:
+
+Chose your action:
+1. Load container on the ship (select container color in next step 1.1)
+2. List containers with their ID's  already loaded on the ship
+3. Display number of containers loaded
+4. Exit program
+
+> 2
+
+Sample output:
+
+3 containers are loaded on the ship:
+
+1. Container ID = 002, Container color = red
+2. Container ID = 030, Container color = red
+3. Container ID = 100, Container color = blue
+
+Chose your action:
+1. Load container on the ship (select container color in next step 1.1)
+2. List containers with their ID's  already loaded on the ship
+3. Display number of containers loaded
+4. Exit program
+
+Sample input:
+
+> 1
+
+What color container do you want to load? ( red, white, blue ):
+> red
+
+Sample output:
+
+Container loaded.
+
+Chose your action:
+1. Load container on the ship (select container color in next step 1.1)
+2. List containers with their ID's  already loaded on the ship
+3. Display number of containers loaded
+4. Exit program
+
+</task8>
+
+
+
+
 2023-09-14 two dimensional array
 
 <task6>
