@@ -14,9 +14,8 @@ public enum Task3_1 {
         try {
             Task3_1 enumValue = Task3_1.valueOf(input);
             int intValue = enumValue.ordinal();
+            System.out.println("output = " + (intValue + 1));
 
-            System.out.println("input = " + enumValue);
-            System.out.println("int output = " + (intValue + 1));
         } catch (IllegalArgumentException e) {
             System.out.println("Invalid number! Please try again!");
         }

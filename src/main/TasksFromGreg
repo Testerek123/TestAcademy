@@ -53,6 +53,30 @@ Chose your action:
 
 
 
+2023-09-26 expand on two dimensional array rotation
+
+<task7>
+rotate array like in <task6> except by 90, 180, 270 degrees
+so now input consists of
+- the two numbers n and m, not exceeding 100,
+- an array n×m in size (elements not exceeding 100)
+- degrees to rotate array: 90, 180, 270
+
+Sample Input:
+3 4
+11 12 13 14
+21 22 23 24
+31 32 33 34
+90
+
+Sample Output:
+31 21 11
+32 22 12
+33 23 13
+34 24 14
+</task7>
+
+
 2023-09-14 two dimensional array
 
 <task6>
