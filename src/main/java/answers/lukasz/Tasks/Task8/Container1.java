@@ -3,12 +3,12 @@ package answers.lukasz.Tasks.Task8;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Container {
+public class Container1 {
     private String id;
     private static int nextId = 1;
     private String color;
 
-    public Container(String color) {
+    public Container1(String color) {
         this.id = String.format("%03d", nextId++);
         this.color = color;
     }
@@ -23,7 +23,7 @@ public class Container {
 }
 
 class Ship {
-    public List<Container> containers = new ArrayList<>();
+    public List<Container1> containers = new ArrayList<>();
 
 /*1. Load container on the ship (select container color in next step 1.1)
 
@@ -33,7 +33,7 @@ class Ship {
 
     public void loadContainer(String color) {
         if (isValidColor(color)) {
-            Container container = new Container(color);
+            Container1 container = new Container1(color);
             if (containers.size() < 12) {
                 containers.add(container);
                 System.out.println("Container loaded");
@@ -46,21 +46,21 @@ class Ship {
     }
 
 
-/* 2. List containers with their ID's  already loaded on the ship
-        3 containers are loaded on the ship:
-        1. Container ID = 002, Container color = red*/
+    /* 2. List containers with their ID's  already loaded on the ship
+            3 containers are loaded on the ship:
+            1. Container ID = 002, Container color = red*/
     public void listContainer() {
         if (containers.size() == 0) {
             System.out.println("\nContainer is empty for now! Load container on the Ship first!");
             return;
         }
-        System.out.println("\n"+containers.size() + " containers are loaded on the ship:");
-        for (Container container : containers) {
+        System.out.println("\n" + containers.size() + " containers are loaded on the ship:");
+        for (Container1 container : containers) {
             System.out.println("\nContainer ID = " + container.getId() + ", Container color = " + container.getColor());
         }
     }
 
-/*3. Display number of containers loaded*/
+    /*3. Display number of containers loaded*/
     public void getLoadedContainerCount() {
         if (containers.size() == 0) {
             System.out.println("\nContainers is empty for now! Load container on the Ship first!");
