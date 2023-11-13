@@ -1,4 +1,4 @@
-package answers.lukasz.Tasks;
+package answers.lukasz.Tasks.Task6;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
@@ -31,9 +31,9 @@ public class Task6 {
         try (Scanner scanner = new Scanner(System.in)) {
             System.out.print("Enter the number of rows: ");
             int rows = scanner.nextInt();
-
             System.out.print("Enter the number of columns: ");
             int columns = scanner.nextInt();
+
             if (rows > 100 || columns > 100) {
                 System.out.println("\nNumber of columns exceeds 100. Please try again!");
                 return;
@@ -44,7 +44,7 @@ public class Task6 {
             int[][] array = new int[rows][columns];
 
             // Input data into the array
-            System.out.println("\nEnter the elements of the array:");
+            System.out.println("\nEnter the elements of the array using integer:");
             for (int i = 0; i < rows; i++) {
                 for (int j = 0; j < columns; j++) {
                     int input = scanner.nextInt();
@@ -82,4 +82,3 @@ public class Task6 {
         }
     }
 }
-

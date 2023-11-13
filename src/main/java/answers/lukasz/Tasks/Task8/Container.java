@@ -1,4 +1,4 @@
-package answers.lukasz.Tasks;
+package answers.lukasz.Tasks.Task8;
 
 import java.util.ArrayList;
 import java.util.List;

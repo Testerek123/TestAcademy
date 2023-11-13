@@ -1,9 +1,15 @@
-package answers.lukasz.Tasks;
+package answers.lukasz.Tasks.Task3;
 
 import java.util.Scanner;
-/*we display the index of the string input*/
-public enum Task3_1 {
-    ONE, TWO, THREE, FOUR, FIVE, SIX, SEVEN, EIGHT, NINE;
+/*we display assigned enum label of string input*/
+public enum Task3_2 {
+    ONE("1"), TWO("2"), THREE("3"), FOUR("4"), FIVE("5"), SIX("6"), SEVEN("7"), EIGHT("8"), NINE("9");
+
+    public final String label;
+
+    Task3_2(String label) {
+        this.label = label;
+    }
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -12,10 +18,8 @@ public enum Task3_1 {
         scanner.close();
 
         try {
-            Task3_1 enumValue = Task3_1.valueOf(input);
-            int intValue = enumValue.ordinal();
-            System.out.println("output = " + (intValue + 1));
-
+            Task3_2 startDay = Task3_2.valueOf(input);
+            System.out.println("output = " + startDay.label);
         } catch (IllegalArgumentException e) {
             System.out.println("Invalid number! Please try again!");
         }

@@ -1,4 +1,4 @@
-package answers.lukasz.Tasks;
+package answers.lukasz.Tasks.Task2;
 
 import java.util.Scanner;
 
@@ -23,7 +23,6 @@ public class Task2 {
                     System.out.println("1) " + daysArray[i]);
                     System.out.println("1) i: " + i + " - startIndex: " + startIndex + " = " + (i - startIndex));
                 }
-
             }
             for (int i = 0; i < daysArray.length; i++) {
                 if ((i - startIndex) < 0) {     //in the second loop, we search for days less than the 0 (first index).
