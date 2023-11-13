@@ -3,12 +3,12 @@ package answers.lukasz.Tasks.Task8;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Container1 {
+public class Container {
     private String id;
     private static int nextId = 1;
     private String color;
 
-    public Container1(String color) {
+    public Container(String color) {
         this.id = String.format("%03d", nextId++);
         this.color = color;
     }
@@ -23,7 +23,7 @@ public class Container1 {
 }
 
 class Ship {
-    public List<Container1> containers = new ArrayList<>();
+    public List<Container> containers = new ArrayList<>();
 
 /*1. Load container on the ship (select container color in next step 1.1)
 
@@ -33,7 +33,7 @@ class Ship {
 
     public void loadContainer(String color) {
         if (isValidColor(color)) {
-            Container1 container = new Container1(color);
+            Container container = new Container(color);
             if (containers.size() < 12) {
                 containers.add(container);
                 System.out.println("Container loaded");
@@ -55,7 +55,7 @@ class Ship {
             return;
         }
         System.out.println("\n" + containers.size() + " containers are loaded on the ship:");
-        for (Container1 container : containers) {
+        for (Container container : containers) {
             System.out.println("\nContainer ID = " + container.getId() + ", Container color = " + container.getColor());
         }
     }
