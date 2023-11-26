@@ -1,3 +1,93 @@
+2023-11-25 robotic AI OS
+
+<task10>
+ Develop Java-based Robotic Operating System (ROS)
+ to manage and control diverse, AI driven robotic assistants.
+ Utilize abstract classes and inheritance
+ to facilitate the behavior and functionalities
+ of various robotic models for designated roles.
+
+  ROS utilizes an abstract class RoboticAssistant
+  as the foundation for all robotic assistants.
+
+  Certain methods are declared as abstract,
+  allowing customization in subclasses.
+
+  Let's set generic behaviors each robot does:
+  - move
+  - see
+  - perform task
+
+  Let's set robot particular behavior:
+
+Type1 = home helper robot - whistle melody: "fju fju fju" or "fjuuuu"
+Type2 = work helper robot - project warning sign: "saftey area"  or "industrial hazard"
+
+
+
+ Develop ROS for two types of robots:
+
+ Type1 = home helper robot
+ Type2 = work helper robot
+
+ Type 1 can move around house, clean & cook
+ Type 2 can move around work, asseble products & transport goods
+
+As an input define environment, robot type and number of tasks (max 5 tasks)
+as an output robot should identify himself, describe what environment it sees
+and
+if environment fits his abilities:
+he should move to randomly selected area and perform perform random task that can be done in the area
+if robot is not compatibile  with environment it should shut himself down for safety
+note: it is an AI robot - it should not perform same task twice in a row
+note: robot while performing a task should perform (randomly) one of it's particular behavior
+
+Elements to randomly select:
+- home areas: kitchen, room
+-- kitchen tasks: cook toast & scrumble eggs, check dishwasher
+-- room tasks: wash floor, dust furnitures
+
+- work area: storage, assembly
+-- storage tasks: move part from shelve to conveyer belt, load product to cart
+-- asseble tasks: connect part1 with part2, rivet serial number plate to main part body
+
+
+Sample input:
+home Type1 1
+
+Sample output:
+> I am home helper robot
+> I recognize home environment
+> I am moving to <kitchen> <room>
+> I am doing task 1 <cooking> <checking dishwasher>
+> I am whistling <"fju fju fju"> <"fjuuuu">
+
+Sample input:
+home Type2 1
+
+Sample output:
+> work helper robot
+> I do not recognize work environment
+> I am shutting down for safety
+
+Sample input:
+home Type1 4
+
+Sample output:
+> I am home helper robot
+> I recognize home environment
+> I am moving to <kitchen> <room>
+> I am doing task 1 <cooking> <checking dishwasher> <wash floor>  <dust furnitures>
+> I am whistling <"fju fju fju"> <"fjuuuu">
+> I am doing task 2 <cooking> <checking dishwasher> <wash floor>  <dust furnitures>
+> I am whistling <"fju fju fju"> <"fjuuuu">
+> I am moving to <kitchen> <room>
+> I am doing task 3 <cooking> <checking dishwasher> <wash floor>  <dust furnitures>
+> I am whistling <"fju fju fju"> <"fjuuuu">
+> I am doing task 4 <cooking> <checking dishwasher> <wash floor>  <dust furnitures>
+> I am whistling <"fju fju fju"> <"fjuuuu">
+
+</task10>
 
 
 2023-11-14  snail daily trips
