@@ -1,3 +1,41 @@
+
+
+2023-11-14  snail daily trips
+
+<task9>
+Imagine there is a pole of the height "h" cm
+every day the snail goes up the pole "u" cm
+and every night the snail goes down the pole "d"
+u is always greater than d
+h,u,d are equal or greater than zero
+
+user provides:
+- h
+- u
+- d
+
+Calculate how many days (days+nights) the snail needs to reach the top of the pole
+
+
+Sample input:
+
+10
+3
+2
+
+Sample output = 8
+
+Sample input:
+
+20
+7
+3
+
+Sample output = 5
+
+
+</task9>
+
 2023-10-21 container depot (use objects to store their state)
 
 <task8>
